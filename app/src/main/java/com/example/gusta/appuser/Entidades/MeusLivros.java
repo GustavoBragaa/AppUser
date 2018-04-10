@@ -1,19 +1,18 @@
 package com.example.gusta.appuser.Entidades;
 
 /**
- * Created by gusta on 02/04/2018.
+ * Created by gusta on 07/04/2018.
  */
 
-public class Livros {
+public class MeusLivros {
 
     private String livro;
     private String genero;
     private String autor;
-    public String key;
+    private String idLivro;
+    private String codigoUsuario;
 
 
-    public Livros() {
-    }
     public String getLivro() {
         return livro;
     }
@@ -38,17 +37,20 @@ public class Livros {
         this.autor = autor;
     }
 
-    public String getKey() {
-        return key;
+    public String getIdLivro() {
+        return idLivro;
     }
 
-    public void setKey(String key) {
-        this.key = key;
+    public void setIdLivro(String idLivro) {
+        this.idLivro = idLivro;
     }
 
+    public String getCodigoUsuario() {
+        return codigoUsuario;
+    }
 
-
-
-
+    public void setCodigoUsuario(String codigoUsuario) {
+        this.codigoUsuario = codigoUsuario;
+    }
 
 }

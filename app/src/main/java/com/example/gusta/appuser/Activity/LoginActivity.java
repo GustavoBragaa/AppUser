@@ -22,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText edtEmail;
     private EditText edtSenha;
     private Button btLogin;
-   private TextView txtNovoCadastro;
+    private TextView txtNovoCadastro;
     private FirebaseAuth autenticacao;
     private Usuarios usuarios;
 
@@ -87,7 +87,7 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(LoginActivity.this, "Login efetuado com sucesso!", Toast.LENGTH_SHORT).show();
 
 
-                }else{
+                } else {
                     Toast.makeText(LoginActivity.this, "E-mail ou senha invalidos! ", Toast.LENGTH_SHORT).show();
 
                 }
@@ -95,12 +95,11 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-    public void ChamarMain(){
+    public void ChamarMain() {
 
         Intent ChamaMain = new Intent(LoginActivity.this, MainActivity.class);
         startActivity(ChamaMain);
     }
-
 
 
 }
