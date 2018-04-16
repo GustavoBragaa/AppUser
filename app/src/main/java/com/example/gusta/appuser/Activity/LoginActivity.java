@@ -84,11 +84,12 @@ public class LoginActivity extends AppCompatActivity {
                 if (task.isSuccessful()) {
 
                     ChamarMain();
+
                     Toast.makeText(LoginActivity.this, "Login efetuado com sucesso!", Toast.LENGTH_SHORT).show();
 
 
                 } else {
-                    Toast.makeText(LoginActivity.this, "E-mail ou senha invalidos! ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, "Credenciais invalidas! ", Toast.LENGTH_SHORT).show();
 
                 }
             }

@@ -9,16 +9,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="142dp"
+        android:layout_marginTop="18dp"
         android:text="Livro" />
 
     <TextView
         android:id="@+id/txtGenero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/txtAutor"
         android:layout_below="@+id/txtLivro"
-        android:layout_marginTop="19dp"
+        android:layout_centerHorizontal="true"
         android:text="Genero" />
 
     <TextView
@@ -27,6 +26,5 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtGenero"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
         android:text="Autor" />
 </RelativeLayout>

@@ -1,6 +1,7 @@
 package com.example.gusta.appuser.Adapter;
 
 import android.content.Context;
+import android.support.annotation.LayoutRes;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,7 +24,7 @@ public class FavoritosAdapter extends ArrayAdapter<MeusLivros> {
     private Context context;
 
 
-    public FavoritosAdapter(Context context, ArrayList<MeusLivros> Data) {
+    public FavoritosAdapter(Context context,  ArrayList<MeusLivros> Data) {
         super(context, 0, Data);
         this.context = context;
         this.meusLivros = Data;

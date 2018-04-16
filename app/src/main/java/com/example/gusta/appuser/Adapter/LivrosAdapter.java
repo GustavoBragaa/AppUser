@@ -26,7 +26,7 @@ public class LivrosAdapter extends ArrayAdapter<Livros> {
 
 
 
-    public LivrosAdapter(Context c, @LayoutRes int resource, ArrayList<Livros> objects) {
+    public LivrosAdapter(Context c,  ArrayList<Livros> objects) {
         super(c, 0, objects);
         this.context = c;
         this.livros = objects;
@@ -62,16 +62,8 @@ public class LivrosAdapter extends ArrayAdapter<Livros> {
 
 
     }
-    public List<Livros> getDados() {
-        return objects;
-    }
 
-    public void setDados(List<Livros> objects){
-        this.clear();
-        this.addAll(objects);
-        this.objects = objects;
-        this.notifyDataSetChanged();
-    }
+
 
 }
 

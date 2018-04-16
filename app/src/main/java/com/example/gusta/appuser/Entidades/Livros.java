@@ -9,10 +9,28 @@ public class Livros {
     private String livro;
     private String genero;
     private String autor;
-    public String key;
+    private  String id;
 
 
     public Livros() {
+
+    }
+
+    public   Livros ( String   id ,   String   livro ,   String   genero, String autor ) {
+        this.id = id;
+        this.livro = livro;
+        this.genero = genero;
+        this.autor = autor;
+    }
+
+
+    public String getId() {
+
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
     public String getLivro() {
         return livro;
@@ -38,13 +56,7 @@ public class Livros {
         this.autor = autor;
     }
 
-    public String getKey() {
-        return key;
-    }
 
-    public void setKey(String key) {
-        this.key = key;
-    }
 
 
 

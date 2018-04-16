@@ -9,8 +9,19 @@ public class MeusLivros {
     private String livro;
     private String genero;
     private String autor;
-    private String idLivro;
-    private String codigoUsuario;
+    private String id;
+
+    public String getId() {
+
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public MeusLivros() {
+    }
 
 
     public String getLivro() {
@@ -37,20 +48,5 @@ public class MeusLivros {
         this.autor = autor;
     }
 
-    public String getIdLivro() {
-        return idLivro;
-    }
-
-    public void setIdLivro(String idLivro) {
-        this.idLivro = idLivro;
-    }
-
-    public String getCodigoUsuario() {
-        return codigoUsuario;
-    }
-
-    public void setCodigoUsuario(String codigoUsuario) {
-        this.codigoUsuario = codigoUsuario;
-    }
 
 }
